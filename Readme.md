@@ -22,8 +22,10 @@ Student Marks Predictor is a Machine Learning project that uses Linear Regressio
 - Data analysis and preprocessing using Pandas and NumPy.
 - feature engineering features encoding and checking outliers using skewness
 
-## Project Structure
 
+## 📂 Project Structure
+
+```text
 students-marks-predictor/
 │
 ├── app.py
@@ -40,6 +42,8 @@ students-marks-predictor/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
 ## Project Workflow
 
         Student Marks Dataset
