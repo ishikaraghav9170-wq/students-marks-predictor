@@ -40,7 +40,6 @@ students-marks-predictor/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
 ## Project Workflow
 
         Student Marks Dataset
