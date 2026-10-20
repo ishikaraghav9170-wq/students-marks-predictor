@@ -9,7 +9,7 @@ st.title("Student Marks Predictor")
 hours = st.number_input(
     "Enter your study hours:",
     min_value=0.0,
-    max_value=24.0,
+    max_value=10.0,
     step=1.0
 )
 
