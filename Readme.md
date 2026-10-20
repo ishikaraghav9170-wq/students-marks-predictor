@@ -14,19 +14,6 @@ Student Marks Predictor is a Machine Learning project that uses Linear Regressio
 - Joblib
 - Streamlit
 
-## Project Structure
-
-students-marks-predictor/
-├── app.py
-├── linear_regression_model.pkl
-├── model.ipynb
-├dataset/
-|  |__processed.csv
-|  |__StudentMarksDataset.csv
-├── requirements.txt
-├── README.md
-└── .gitignore
-
 ## Features
 - Predict students  marks based on study hours.
 - Use a trained Linear Regression model.
@@ -35,22 +22,75 @@ students-marks-predictor/
 - Data analysis and preprocessing using Pandas and NumPy.
 - feature engineering features encoding and checking outliers using skewness
 
+## Project Structure
+
+students-marks-predictor/
+│
+├── app.py
+├── linear_regression_model.pkl
+├── model.ipynb
+│
+├── dataset/
+│   ├── processed.csv
+│   └── StudentMarksDataset.csv
+│
+├── screenshots/
+│   └── streamlit-app.png
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+## Project Workflow
+
+        Student Marks Dataset
+                 |
+                 v
+       Exploratory Data Analysis
+                 |
+                 v
+        Data Preprocessing
+                 |
+                 v
+         Feature Engineering
+                 |
+                 v
+       Linear Regression Model
+                 |
+                 v
+          Model Evaluation
+             (MAE, R²)
+                 |
+                 v
+      Save Model Using Joblib
+                 |
+                 v
+       Streamlit Web Application
+                 |
+                 v
+         Enter Study Hours
+                 |
+                 v
+        Predict Student Marks
+
 ## Installation and Setup
-
 ### 1. Clone the Repository
-
+```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
 
 ### 2. Open the Project Folder
-
 cd students_marks_predictor
 
 
 ### 3. Create a Virtual Environment (Optional)
-
+```bash
 python -m venv .venv
-
+```
+```bash
 .venv\Scripts\activate
+```
 
 
 ### 4. Install Dependencies
@@ -70,7 +110,9 @@ The application will open in your browser, usually at `http://localhost:8501`.
 2. Enter your study hours.
 3. View the predicted marks.
 
-## streamlit web page 
+## streamlit web page
+![web page](screenshots/image-1.png)
+
 
 
 ## Model Evaluation
